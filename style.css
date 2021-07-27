@@ -134,3 +134,53 @@ nav ul li {
 #contact ul {
     list-style: none;
 }
+
+.containerImg1 {
+    background-image: url(./resource/Project/Dashmoto.PNG);
+    
+}
+
+.containerImg2 {
+    background-image: url(./resource/Project/Excursion.PNG);
+}
+
+.containerImg3 {
+    background-image: url(./resource/Project/Styleguide.PNG);
+}
+
+.containerImg4 {
+    background-image: url(./resource/Project/Tea-cozy.PNG);
+}
+
+.msHover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 400px;
+    margin: 50px;
+}
+
+.msHover .hover:hover {
+    color: rgba(0, 0, 0, 1);
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+.msHover .hover {
+    color: rgba(255, 255, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: inherit;
+    height: inherit;
+    opacity: 0;
+}
+
+button {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 25px;
+    border: black 0.5px solid;
+}
